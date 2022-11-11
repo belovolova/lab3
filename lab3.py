@@ -58,7 +58,7 @@ def get_selected_items_list(stuffdict, A):
             # "забираем" предмет
             items_list.append((area[i - 1], value[i - 1]))
             res -= value[i - 1]  # отнимаем значение ценности от общей
-            a -= area[i - 1]  # отнимаем площадь от общей
+            a -= area[i - 1]  
 
     selected_stuff = []
     mas = []
